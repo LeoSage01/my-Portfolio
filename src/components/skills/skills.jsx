@@ -16,13 +16,13 @@ const Skill = () => {
             <article className="skill_content__details">
               <FaHtml5 className='skill_content__details-icon'/>
               <div>
-                <h4>HTML 5</h4>
+                <h4>HTML5</h4>
               </div>
             </article>
             <article className="skill_content__details">
               <DiCss3 className='skill_content__details-icon'/>
               <div>
-               <h4>CSS 3</h4>
+               <h4>CSS3</h4>
               </div>
             </article>
             <article className="skill_content__details">

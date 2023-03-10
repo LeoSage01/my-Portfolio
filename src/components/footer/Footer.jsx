@@ -1,6 +1,8 @@
 import React from 'react'
 import './footer.scss'
 
+import Logo from '../../assets/logo.png'
+
 import {BsLinkedin} from 'react-icons/bs'
 import {FaGithub} from 'react-icons/fa'
 
@@ -8,7 +10,7 @@ import {FaGithub} from 'react-icons/fa'
 const Footer = () => {
   return (
     <footer className='footer'>
-      <a href="#" className="footer__logo">Victor</a>
+      <img src={Logo} alt="Logo" />
 
       <div className="footer__socials">
       <a href="https://linkedin.com/in/ugwuoke-victor-8a2758184" target="_blank"><BsLinkedin/></a>
