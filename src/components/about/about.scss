@@ -29,6 +29,8 @@
 
 }
 
+
+
 /* =============== MEDIA QUERIES (MEDIUM DEVICES) ================ */
 @media screen and (max-width: 1024px) {
     .about_container {
@@ -42,6 +44,10 @@
 
         &__content p {
             margin: 1rem 0 1.5rem;
+        }
+
+        .btn {
+            margin: 0 auto;
         }
     }
 
