@@ -10,20 +10,30 @@
         display: grid;
         place-items: center;
         overflow: hidden;
+
+        img {
+            height: 100%;
+        }
     }
 
-    &__content p {
-        margin: 0 0 1.5rem;
-        color: var(--color-light);
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        p {
+            margin: 0 0 1.5rem;
+            color: var(--color-light);
+        }
     }
 
 }
 
 /* =============== MEDIA QUERIES (MEDIUM DEVICES) ================ */
 @media screen and (max-width: 1024px) {
-   .about_container {
+    .about_container {
         grid-template-columns: 1fr;
-        gap: 0;   
+        gap: 0;
 
         &__me {
             width: 50%;
@@ -39,8 +49,8 @@
 
 /* =============== MEDIA QUERIES (SMALL DEVICES) ================ */
 @media screen and (max-width: 600px) {
-    .about_container{
-    
+    .about_container {
+
         &__me {
             width: 65%;
             margin: 0 auto 3rem;
@@ -48,7 +58,7 @@
 
         &__content {
             text-align: center;
-        
+
             p {
                 margin: 1.5rem 0;
             }

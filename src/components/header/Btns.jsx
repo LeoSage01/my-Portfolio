@@ -1,5 +1,5 @@
 import React from 'react'
-import CV from '../../assets/leoSage.pdf'
+import CV from "../../assets/VICTOR'sResume.pdf"
 
 
 const Btns = () => {

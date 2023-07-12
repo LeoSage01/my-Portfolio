@@ -1,13 +1,6 @@
 header {
-    height: 100vh;
-    padding-top: 7rem;
+    padding-top: 3rem;
     overflow: hidden;
-}
-
-.logo {
-    position: absolute;
-    top: 12px;
-    width: 12rem;
 }
 
 .header_container {
@@ -16,13 +9,15 @@ header {
     position: relative;
 
     &__image {
+        margin-top: 3rem;
         width: 22rem;
-        height: 30rem;
-        position: absolute;
-        left: calc(50% - 11rem);
-        top: 11rem;
-        padding: 5rem 1.5rem 1rem 1.5rem;
+        height: 23rem;
     }
+}
+
+.section {
+    display: flex;
+    justify-content: space-around;
 }
 
 /* ========= BTNS ========== */
@@ -65,17 +60,11 @@ header {
     font-size: 0.9rem;
 }
 
-/* =============== MEDIA QUERIES (MEDIUM DEVICES) ================ */
-@media screen and (max-width: 1024px) {
-    .header {
-        height: 68vh;
-    }
-}
 
 /* =============== MEDIA QUERIES (SMALL DEVICES) ================ */
 @media screen and (max-width: 600px) {
     .header {
-        height: 100vh;
+        
       
         &__socials, .scroll_down {
             display: none;

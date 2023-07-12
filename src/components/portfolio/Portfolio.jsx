@@ -1,29 +1,46 @@
 import React from 'react'
 import './portfolio.scss'
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
+import IMG1 from '../../assets/bank.png'
+import IMG2 from '../../assets/ecom.png'
+import IMG3 from '../../assets/cars.png'
+import IMG4 from '../../assets/port.png'
+
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Tip Calculator App',
-    github: 'https://github.com/LeoSage01/myTipCalculator.github.io',
-    demo: 'https://leosage01.github.io/myTipCalculator.github.io/'
+    title: 'Banking Website Landing Page',
+    github: 'https://github.com/LeoSage01/Banking-website',
+    demo: 'https://banking-website-5rwq.vercel.app/'
   },
   {
     id: 2,
     image: IMG2,
-    title: 'Rock Paper Scissors',
-    github: 'https://github.com/LeoSage01/RockPaperScissors.github.io',
-    demo: 'https://leosage01.github.io/RockPaperScissors.github.io/'
+    title: 'E-commerce Website Landing Page',
+    github: 'https://github.com/LeoSage01/LS-E-commerce.github.io',
+    demo: 'https://leosage01.github.io/LS-E-commerce.github.io/'
+  },
+  {
+    id: 3,
+    image: IMG3,
+    title: 'Car Rental Dashboard',
+    github: 'https://github.com/LeoSage01/Car_Rental-Dashboard',
+    demo: 'https://car-rental-rosy.vercel.app/dashboard'
+  },
+  {
+    id: 4,
+    image: IMG4,
+    title: 'E-Portfolio Website',
+    github: 'https://github.com/LeoSage01/LS-E-commerce.github.io',
+    demo: '/'
   }
 ]
 
 const Portfolio = () => {
   return (
     <section id='portfolio'>
-      <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h5>Browse My Recent</h5>
+      <h2>Projects</h2>
 
       <div className="container portfolio_container">
         {

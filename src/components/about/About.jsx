@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.scss'
-import ME from '../../assets/me-about.png'
+import ME from '../../assets/picmua.jpg'
 
 const About = () => {
   return (
@@ -15,7 +15,7 @@ const About = () => {
 
         <div className="about_container__content">          
           <p>
-            My name is Ugwuoke Victor AKA Leo Sage. I'm a creative front-end web developer passionate about creating eye-catching, user-friendly websites and applications. I got inspired to code by Apple products. I love the way Apple products work smoothly and how they create a great user experience.
+            My name is Ugwuoke Victor. I'm a creative front-end web developer passionate about creating eye-catching, user-friendly websites and applications. I got inspired to code by Apple products. I love the way Apple products work smoothly and how they create a great user experience.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's talk</a>
