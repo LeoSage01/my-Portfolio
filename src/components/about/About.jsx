@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.scss'
-import ME from '../../assets/picmua.jpg'
+import ME from '../../assets/picm.jpg'
 
 const About = () => {
   return (

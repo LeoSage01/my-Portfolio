@@ -1,9 +1,9 @@
 import React from 'react'
 import './portfolio.scss'
-import IMG1 from '../../assets/bank.png'
-import IMG2 from '../../assets/ecom.png'
-import IMG3 from '../../assets/cars.png'
-import IMG4 from '../../assets/port.png'
+import IMG1 from '../../assets/bank.jpg'
+import IMG2 from '../../assets/ecom.jpg'
+import IMG3 from '../../assets/cars.jpg'
+import IMG4 from '../../assets/port.jpg'
 
 const data = [
   {
