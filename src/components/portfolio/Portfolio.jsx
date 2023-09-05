@@ -2,30 +2,31 @@ import React from 'react'
 import './portfolio.scss'
 import IMG1 from '../../assets/bank.jpg'
 import IMG2 from '../../assets/ecom.jpg'
-import IMG3 from '../../assets/cars.jpg'
-import IMG4 from '../../assets/port.jpg'
+import IMG3 from '../../assets/crr.png'
+import IMG4 from '../../assets/portpic.png'
+import IMG5 from '../../assets/bkmark.png'
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Banking Website Landing Page',
+    title: 'NOX Bank',
     github: 'https://github.com/LeoSage01/Banking-website',
     demo: 'https://banking-website-5rwq.vercel.app/'
   },
   {
-    id: 2,
-    image: IMG2,
-    title: 'E-commerce Website Landing Page',
-    github: 'https://github.com/LeoSage01/LS-E-commerce.github.io',
-    demo: 'https://leosage01.github.io/LS-E-commerce.github.io/'
-  },
-  {
     id: 3,
     image: IMG3,
-    title: 'Car Rental Dashboard',
-    github: 'https://github.com/LeoSage01/Car_Rental-Dashboard',
-    demo: 'https://car-rental-rosy.vercel.app/dashboard'
+    title: 'Car Rental',
+    github: 'https://github.com/LeoSage01/Car-rental',
+    demo: 'https://car-rental.brimble.app/'
+  },
+  {
+    id: 2,
+    image: IMG2,
+    title: 'LS Clothings',
+    github: 'https://github.com/LeoSage01/LS-E-commerce.github.io',
+    demo: 'https://leosage01.github.io/LS-E-commerce.github.io/'
   },
   {
     id: 4,
@@ -33,6 +34,13 @@ const data = [
     title: 'E-Portfolio Website',
     github: 'https://github.com/LeoSage01/LS-E-commerce.github.io',
     demo: '/'
+  },
+  {
+    id: 5,
+    image: IMG5,
+    title: 'Bookmark Landing Page',
+    github: 'https://github.com/LeoSage01/Bookmark-Landing-Page',
+    demo: 'https://bookmark-landing-page-1goozl0km-leosage01.vercel.app/'
   }
 ]
 
