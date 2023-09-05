@@ -3,6 +3,7 @@ import './skills.scss'
 import {FaGitAlt, FaHtml5, FaReact, FaSass} from 'react-icons/fa'
 import {DiCss3} from 'react-icons/di'
 import {SiJavascript, SiTypescript, SiTailwindcss, SiExpress, SiMongodb, SiNodedotjs} from 'react-icons/si'
+import {TbBrandNextjs} from 'react-icons/tb'
 
 
 const Skill = () => {
@@ -52,7 +53,13 @@ const Skill = () => {
             <article className="skill_content__details">
               <FaReact className='skill_content__details-icon'/>
               <div>
-               <h4>React JS</h4>
+               <h4>React</h4>
+              </div>
+            </article>
+            <article className="skill_content__details">
+              <TbBrandNextjs className='skill_content__details-icon'/>
+              <div>
+               <h4>Next JS</h4>
               </div>
             </article>
             <article className="skill_content__details">
