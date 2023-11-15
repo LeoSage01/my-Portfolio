@@ -5,7 +5,7 @@ import CV from "../../assets/VICTOR'sResume.pdf"
 const Btns = () => {
   return (
     <div className="btns">
-        <a href={CV} download className='btn'>Download CV</a>
+        <a href="#" download className='btn'>Download CV</a>
         <a href="#contact" className='btn btn-primary'>Let's Talk</a>
     </div>
   )
