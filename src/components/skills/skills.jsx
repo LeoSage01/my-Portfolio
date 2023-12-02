@@ -29,7 +29,7 @@ const Skill = () => {
             <article className="skill_content__details">
               <FaSass className='skill_content__details-icon'/>
               <div>
-                <h4>Sass</h4>
+                <h4>Sass (SCSS)</h4>
               </div>
             </article>
             <article className="skill_content__details">
@@ -84,6 +84,12 @@ const Skill = () => {
               <SiMongodb className='skill_content__details-icon'/>
               <div>
                <h4>Mongo DB</h4>
+              </div>
+            </article>
+            <article className="skill_content__details">
+              <SiMongodb className='skill_content__details-icon'/>
+              <div>
+               <h4>MySQL</h4>
               </div>
             </article>
             <article className="skill_content__details">
