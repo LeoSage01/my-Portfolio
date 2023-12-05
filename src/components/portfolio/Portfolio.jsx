@@ -11,14 +11,14 @@ import IMG8 from '../../assets/bond.png'
 import IMG9 from '../../assets/food.png'
 
 const data = [
-  {
-    id: 1,
-    image: IMG1,
-    title: 'NOX Bank',
-    desc: 'A React Js Banking App styled using Tailwind CSS',
-    github: 'https://github.com/LeoSage01/Banking-website',
-    demo: 'https://banking-website-5rwq.vercel.app/'
-  },
+  // {
+  //   id: 1,
+  //   image: IMG1,
+  //   title: 'NOX Bank',
+  //   desc: 'A React Js Banking App styled using Tailwind CSS',
+  //   github: 'https://github.com/LeoSage01/Banking-website',
+  //   demo: 'https://banking-website-5rwq.vercel.app/'
+  // },
   {
     id: 6,
     image: IMG6,
