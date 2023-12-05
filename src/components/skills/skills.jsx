@@ -2,7 +2,7 @@ import React from 'react'
 import './skills.scss'
 import {FaGitAlt, FaHtml5, FaReact, FaSass} from 'react-icons/fa'
 import {DiCss3} from 'react-icons/di'
-import {SiJavascript, SiTypescript, SiTailwindcss, SiExpress, SiMongodb, SiNodedotjs} from 'react-icons/si'
+import {SiJavascript, SiTypescript, SiTailwindcss, SiExpress, SiMongodb, SiMysql, SiNodedotjs} from 'react-icons/si'
 import {TbBrandNextjs} from 'react-icons/tb'
 
 
@@ -87,7 +87,7 @@ const Skill = () => {
               </div>
             </article>
             <article className="skill_content__details">
-              <SiMongodb className='skill_content__details-icon'/>
+              <SiMysql className='skill_content__details-icon'/>
               <div>
                <h4>MySQL</h4>
               </div>
